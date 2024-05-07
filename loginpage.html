@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body> 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap');
+    *{
+      font-family: "Poppins", sans-serif;;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .hearder{
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+  .white-background {
+    height: 100vh;
+    border: 1px;
+    border-color:rgb(19, 25, 209);
+    background-color: white;
+  }
+  .white-background__content {
+    width: 364px;
+    margin: 149px auto;
+  }
+
+  .purple-background{
+  height: 100vh;
+  background: url(./assets/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+  }
+
+  .main-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .inputs{
+    width: 100%;
+    height: 100%;
+    border:0;
+    outline:none;
+    background-color:transparent;
+
+  }
+
+  .Login-button{
+    border: 0;
+    width: 124px;
+    height: 52px;
+    border-radius: 16px;
+    background:linear-gradient(99.78deg, #9181F4 -5.85%, #5038ED 109.55%);
+    margin-top: 24px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .input-wrapper{
+    width: 100%;
+    height: 52px;
+    border-radius: 16px;
+    background: #F0EDFFCC;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 18px 4px;
+  }
+  .description {
+    margin-bottom: 24px;
+  }
+
+  .input-wrapper > .input-field {
+    width: 100%;
+    height: 100%;
+    border:0;
+    outline:none;
+    background-color:transparent;
+  }
+  </style>
+ 
+<div class="main-container">
+  <div class="white-background">
+    <div class="white-background__content">
+      <h1 class="header">
+        LOGIN
+      </h1>
+
+      <p class="description"> How to i get started lorem ipsum dolor at?</p>
+      <div class="container">
+        <div class="input-wrapper">
+          <img src="Icons/user.svg" />
+          <input class="input-field" placeholder="username" />
+        </div>
+       
+        <div class="input-wrapper">
+          <img src="Icons/user.svg" />
+          <input class="input-field" placeholder="password" />
+        </div>
+      </div>
+      
+      <button class="Login-button">Login Now</button>
+
+     
+   
+   
+   
+    </div>
+
+  </div>
+ <div class="purple-background">
+ </div>
+</div>
+  
+
+</body>
+</html>
